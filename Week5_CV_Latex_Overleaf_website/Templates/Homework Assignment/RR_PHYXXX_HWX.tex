@@ -1,169 +1,42 @@
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
-%	The MIT License (MIT)
-%
-%	Copyright (c) 2021 Jitin Nair
-%
-%	Permission is hereby granted, free of charge, to any person obtaining a copy
-%	of this software and associated documentation files (the "Software"), to deal
-%	in the Software without restriction, including without limitation the rights
-%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-%	copies of the Software, and to permit persons to whom the Software is
-%	furnished to do so, subject to the following conditions:
-%	
-%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-%	THE SOFTWARE.
-%	
-%
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
+\documentclass[11pt, oneside]{article}   	
+\usepackage[top=2.2cm, bottom=2cm, left=1cm, right=2cm]{geometry}                		
+\geometry{letterpaper}      
+             		
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{float}
 
-%----------------------------------------------------------------------------------------
-%	DOCUMENT DEFINITION
-%----------------------------------------------------------------------------------------
+\usepackage{physics}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{cancel}
 
-% article class because we want to fully customize the page and not use a cv template
-\documentclass[a4paper,12pt]{article}
+\usepackage{verbatim}
+\usepackage[shortlabels]{enumitem}
 
-%----------------------------------------------------------------------------------------
-%	FONT
-%----------------------------------------------------------------------------------------
+\setlength\parindent{22pt}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Ryan Rubenzahl}
+\chead{PHY XXX}
+\rhead{HW X}
 
-% % fontspec allows you to use TTF/OTF fonts directly
-% \usepackage{fontspec}
-% \defaultfontfeatures{Ligatures=TeX}
+\rfoot{\thepage}						
 
-% % modified for ShareLaTeX use
-% \setmainfont[
-% SmallCapsFont = Fontin-SmallCaps.otf,
-% BoldFont = Fontin-Bold.otf,
-% ItalicFont = Fontin-Italic.otf
-% ]
-% {Fontin.otf}
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES
-%----------------------------------------------------------------------------------------
-\usepackage{url}
-\usepackage{parskip} 	
-
-%other packages for formatting
-\RequirePackage{color}
-\RequirePackage{graphicx}
-\usepackage[usenames,dvipsnames]{xcolor}
-\usepackage[scale=0.9]{geometry}
-
-%tabularx environment
-\usepackage{tabularx}
-
-%for lists within experience section
-\usepackage{enumitem}
-
-% centered version of 'X' col. type
-\newcolumntype{C}{>{\centering\arraybackslash}X} 
-
-%to prevent spillover of tabular into next pages
-\usepackage{supertabular}
-\usepackage{tabularx}
-\newlength{\fullcollw}
-\setlength{\fullcollw}{0.47\textwidth}
-
-%custom \section
-\usepackage{titlesec}				
-\usepackage{multicol}
-\usepackage{multirow}
-
-%CV Sections inspired by: 
-%http://stefano.italians.nl/archives/26
-\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{10pt}{10pt}
-
-%for publications
-\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
-
-%Setup hyperref package, and colours for links
-\usepackage[unicode, draft=false]{hyperref}
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}
-\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
-\addbibresource{citations.bib}
-\setlength\bibitemsep{1em}
-
-%for social icons
-\usepackage{fontawesome5}
-
-%debug page outer frames
-%\usepackage{showframe}
-
-%----------------------------------------------------------------------------------------
-%	BEGIN DOCUMENT
-%----------------------------------------------------------------------------------------
 \begin{document}
+	
+\begin{enumerate}
+	
+	\item
+	
+	
+	
+	
+	
+	
+	
+	
+\end{enumerate}
 
-% non-numbered pages
-\pagestyle{empty} 
-
-%----------------------------------------------------------------------------------------
-%	TITLE
-%----------------------------------------------------------------------------------------
-
-% \begin{tabularx}{\linewidth}{ @{}X X@{} }
-% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
-% \raisebox{-0.05\height}\faGithub\ username \ | \
-% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
-% \end{tabularx}
-
-\begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{SEDEF YİĞİT} \\[7.5pt]
-\href{https://github.com/Sedefizm}{\raisebox{-0.05\height}\faGithub\ Sedefizm} \ $|$ \ 
-\href{linkedin.com/in/sedef-yiğit-42a72b238}{\raisebox{-0.05\height}\faLinkedin\ Sedef Yiğit} \  \ 
-
-\href{sedefyigit216@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ sedefyigit216@gmail.com} \  \ 
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
-% EXPERIENCE SECTIONS
-%----------------------------------------------------------------------------------------
-
-%Interests/ Keywords/ Summary
-\section{Summary}
-I am a senior student in the Department of Landscape Architecture at Van Yüzüncü Yıl University, Faculty of Architecture and Design. Throughout my education, I have developed myself in various fields; I have completed significant training such as 500 hours of Web Application Development Expertise Training and a BTK Academy Artificial Intelligence Certificate. I am currently continuing my education at The Data Science Bootcamp, based in Los Angeles.
-
-My project journey began at the age of 15 with TÜBİTAK and was shaped by the project for which I won second place in the Regional Technology and Design competition in 2018. This process ignited an endless curiosity and excitement within me. Throughout my student life, this passion has driven me to participate in various competitions and projects. In 2019, I won first place in the Van province-wide project competition, and in 2021, I became a finalist candidate in the "I Have an Idea for Van" competition. In 2022, I presented my projects as the only finalist candidate selected from Van in the TEKNOFEST University and Above Category Tourism and Technologies Competition. In 2023, I formed a team of six and participated in the Sakarya PMO Young Competition, becoming the only team selected from the Eastern Anatolia Region and the first team from Van to participate. In the same year, I led projects supported under the TÜBİTAK 2209-A University Students Research Projects Support Program. In 2024, together with the ArcAI team, we were among the top 10 projects out of 61 at the Innovan Entrepreneurship Center and received 4 months of entrepreneurship training.
-
-The experiences and education I gained throughout this process have significantly developed my competencies in project management, leadership, and technology-focused innovation. My endless excitement and curiosity have not been limited to projects but have transformed into a desire to start a business in the entrepreneurial world. The ArcAI project emerged as an idea in December 2023, reflecting this passion, and started in February 2024 with three team members. As of March 2024, the team has grown to nine members. Over three months, I worked to persuade people around me of this idea, and as a result, a nine-person ArcAI team, working with a team spirit that believes in and trusts the project, was formed. ArcAI continues to develop this project through an intensive working period lasting a total of seven months. \href{https://github.com/Sedefizm/Intro-to-Astro2024/tree/main/Week5_CV_Latex_Overleaf_website/Templates/Homework%20Assignment}{click here}.
-
-
-
-
-
-\section{Project Competitions / Conferences / Experience}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-2018: TÜBİTAK High School Project Competition / Second Place in Technology and Design Field \\
-2019: Van Mehmet Akif Ersoy Anatolian High School Class Project Competition / First Place \\
-2022: Teknofest University Project Competition / Finalist in Tourism and Technologies field \\
-2022: 6 months of residency at Van Teknokent Start One Incubator \\
-2023: Participated in New European Bauhaus AnkaraAks Project under the European Union Projects \\
-2023: Participated in the nationwide Landscape Architecture Sakarya Competition as a team \\
-2023: Received 3-month support from Innovan Entrepreneurship Center Pre-Incubation Program \\
-2023: Won the right to receive support for University Students Research Projects from TÜBİTAK 2209/A \\
-2024: Selected for the AnkaraAks Creative Youth Project Team \\
-2024: Earned the right to present at the International VisionVan Congress \\
-
-
-\end{tabularx}
-
-
-\section{Education}
-\begin{tabularx}{\linewidth}{@{}l X@{}}
-\normalsize{VAN YUZUNCU YIL UNIVERSITY
-FACULTY OF ARCHITECTURE AND DESIGN}\\
-\normalsize{LANDSCAPE ARCHITECTURE(4/4)}\\  
-\end{tabularx}
-
-\vfill
-
-
-\end{document}
+\end{document}  
